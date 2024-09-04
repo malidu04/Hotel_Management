@@ -26,4 +26,4 @@ var upload = multer({
     }
 });
 
-module.exports = { uploads };
+module.exports = { upload };

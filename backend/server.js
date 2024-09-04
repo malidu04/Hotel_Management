@@ -4,6 +4,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
+const userRoutes = require('./routes/user');
+
 const app = express();
 app.use(cors());
 
@@ -14,6 +16,9 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use('/uploads', express.static('uploads'));
+
+app.use('/api/user', userRoutes);
 mongoose
         .connect('mongodb+srv://malidupahasara04:pahasara12@cluster01.n92o6.mongodb.net/')
         .then(() => {
