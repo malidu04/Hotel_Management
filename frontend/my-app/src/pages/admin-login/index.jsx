@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AdminAPI from '../../api/AdminAPI';
 
-const index = () => {
+const Index = () => {
   const [email, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -86,4 +86,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

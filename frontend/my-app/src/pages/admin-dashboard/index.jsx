@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import React ,{ useState } from 'react';
 
 import Dashboard from './Dashboard';
 import Department from './Department';
@@ -10,7 +9,7 @@ import Attendance from './Attendance';
 
 import './style.css';
 
-const index = () => {
+const Index = () => {
   const adminName = localStorage.getItem('name') || 'Admin';
   const profilePicture =
     localStorage.getItem('profilePicture') ||
@@ -142,4 +141,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

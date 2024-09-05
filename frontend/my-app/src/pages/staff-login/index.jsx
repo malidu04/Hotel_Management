@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import StaffAPI from '../../api/StaffAPI';
 import makeToast from '../../components/toast';
 
-const index = () => {
+const Index = () => {
   const [email, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -100,4 +100,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

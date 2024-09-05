@@ -283,6 +283,7 @@ h2 {
   gap: 100px;
 }
 .supplier-details {
+  background-image: url(../src/images/details\ back.png);
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;

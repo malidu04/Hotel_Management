@@ -8,7 +8,7 @@ import Attendance from './Attendance';
 
 import './style.css';
 
-const index = () => {
+const Index = () => {
   const staffName = localStorage.getItem('name') || 'Staff';
   const profilePicture =
     localStorage.getItem('profilePicture') ||
@@ -111,4 +111,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
