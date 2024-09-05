@@ -1,8 +1,12 @@
-const multer = require('multer');
-const path = require('path');
+const multer = require("multer");
+const path = require("path");
+
+
+
 
 const DIR = 'uploads/';
 
+//Set Storage
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, DIR);
@@ -13,17 +17,19 @@ const storage = multer.diskStorage({
     }
 });
 
-var upload = multer({
 
+var upload = multer({
+    
     storage: storage,
     fileFilter: (req, file, cb) => {
-        if(file.mimetype == "image/jpg" || file.mimetype == "image/jpg" || file.mimetype == "image/jpeg") {
+        if (file.mimetype == "image/png" || file.mimetype == "image/jpg" || file.mimetype == "image/jpeg") {
             cb(null, true);
         } else {
             cb(null, false);
-            return cb(new Error('Only .png .jpg and .jpeg format are allowed!'));
+            return cb(new Error('Only .png, .jpg and .jpeg format allowed!'));
         }
     }
 });
+
 
 module.exports = { upload };
