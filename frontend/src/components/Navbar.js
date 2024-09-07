@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className='navbar navbar-expand-lg navbar-light bg-primary p-2 text-white'>
         <div className='container-fluid text-white'>
           <a className='navbar-brand text-white' href='/'>
-            SHINE ON
+          STAY SUITE
           </a>
           <button
             className='navbar-toggler'
