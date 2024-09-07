@@ -66,7 +66,7 @@ app.use('/api/v1', require('./routes/transaction'));
 app.use('/api/payments', require('./routes/payment.route'));
 //connect to db
 mongoose
-  .connect('mongodb+srv://malidu:pahasara12@cluster0.nnx1exp.mongodb.net/')
+  .connect('mongodb+srv://malidupahasara04:pahasara12@cluster1.eiwsm.mongodb.net/')
   .then(() => {
     //listen for requests
     app.listen(process.env.PORT, () => {
