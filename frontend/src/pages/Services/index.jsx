@@ -1,8 +1,8 @@
 import React from 'react';
-import FullServiceImage from '../../assets/fullservice.webp';
-import OilChangeImage from '../../assets/oilchange.webp';
-import TireReplacementImage from '../../assets/tirereplacement.webp';
-import BodyWashImage from '../../assets/bodywash.webp';
+import DryImage from '../../assets/dry-cleaning.jpg';
+import ConcierImage from '../../assets/ConciergeServices.jpg';
+import RoomImage from '../../assets/RoomService.jpeg';
+import SpaImage from '../../assets/Spa_Wellness.jpg';
 import ServiceViewModal from '../../components/ServiceViewModal';
 import Modal from 'react-modal';
 Modal.setAppElement('div');
@@ -41,16 +41,16 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('Body Wash');
+                setModelTitle('SPA AND WELLNESS');
                 setModelContent(
-                  'Our vehicle body wash service is designed to be convenient and affordable, with flexible scheduling options and competitive pricing. We also use eco-friendly cleaning products and techniques to minimize our environmental impact.'
+                  'Provides relaxation and wellness services, including massages, saunas, and fitness facilities for guests looking to unwind during their stay.'
                 );
                 openModal();
               }}
             >
-              <img src={BodyWashImage} class='img-fluid square-img' alt='...' />
+              <img src={SpaImage} class='img-fluid square-img' alt='...' />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>BODY WASH</span>
+                <span class='text-white fs-3 fw-bold'>SPA AND WELLNESS</span>
               </div>
             </div>
           </div>
@@ -58,20 +58,20 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('Full Service');
+                setModelTitle('LAUNDRY AND DRY CLEANING');
                 setModelContent(
-                  'Our interior services involve thoroughly cleaning, vacuuming, and dusting all surfaces, from the dashboard and steering wheel to the seats and floor mats.Our exterior services range from paint corrections to advanced acid rain removal, ensuring that your vehicle is spotless, sparkles, and shines.'
+                  'Offers laundry and dry cleaning services to guests, ensuring their clothes are cleaned and returned in a timely manner.'
                 );
                 openModal();
               }}
             >
               <img
-                src={FullServiceImage}
+                src={DryImage}
                 class='img-fluid square-img'
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>FULL SERVICE</span>
+                <span class='text-white fs-3 fw-bold'>LAUNDRY AND DRY CLEANING</span>
               </div>
             </div>
           </div>
@@ -81,20 +81,20 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('Oil Change');
+                setModelTitle('Concierge Services');
                 setModelContent(
-                  'To protect your gear box and ensure its smooth operation you have to change the gear oil with the right gear oil type, at the right time.'
+                  ' Assists guests with booking activities, arranging transportation, and providing local information and recommendations.'
                 );
                 openModal();
               }}
             >
               <img
-                src={OilChangeImage}
+                src={ConcierImage}
                 class='img-fluid square-img'
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>OIL CHANGE</span>
+                <span class='text-white fs-3 fw-bold'>CONCIERGE SERVICES</span>
               </div>
             </div>
           </div>
@@ -102,20 +102,20 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('Tire Replacement');
+                setModelTitle('Room Service');
                 setModelContent(
-                  'Auto Miraj also offers Roadside Assistance for peace of mind and also offer a wide range of high-quality and affordable Tyres available for purchasing and fitting on-site for your total convenience.'
+                  'Guests can order food, beverages, and other amenities directly to their rooms.'
                 );
                 openModal();
               }}
             >
               <img
-                src={TireReplacementImage}
+                src={RoomImage}
                 class='img-fluid square-img'
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>TIRE REPLACEMENT</span>
+                <span class='text-white fs-3 fw-bold'>ROOM SERVICE</span>
               </div>
             </div>
           </div>
