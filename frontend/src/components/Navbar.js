@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className='navbar navbar-expand-lg navbar-light bg-primary p-2 text-white'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-secondary p-2 text-white'>
         <div className='container-fluid text-white'>
           <a className='navbar-brand text-white' href='/'>
           STAY SUITE

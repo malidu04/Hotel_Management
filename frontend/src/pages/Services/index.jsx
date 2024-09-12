@@ -41,7 +41,7 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('SPA AND WELLNESS');
+                setModelTitle('Spa and Wellness');
                 setModelContent(
                   'Provides relaxation and wellness services, including massages, saunas, and fitness facilities for guests looking to unwind during their stay.'
                 );
@@ -50,7 +50,7 @@ function Services() {
             >
               <img src={SpaImage} class='img-fluid square-img' alt='...' />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>SPA AND WELLNESS</span>
+                <span class='text-black fs-1 fw-bold'>SPA AND WELLNESS</span>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Services() {
             <div
               class='position-relative'
               onClick={() => {
-                setModelTitle('LAUNDRY AND DRY CLEANING');
+                setModelTitle('Laundry and Dry Cleaning');
                 setModelContent(
                   'Offers laundry and dry cleaning services to guests, ensuring their clothes are cleaned and returned in a timely manner.'
                 );
@@ -71,7 +71,7 @@ function Services() {
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>LAUNDRY AND DRY CLEANING</span>
+                <span class='text-black fs-1 fw-bold'>LAUNDRY AND DRY CLEANING</span>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ function Services() {
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>CONCIERGE SERVICES</span>
+                <span class='text-white fs-1 fw-bold'>CONCIERGE SERVICES</span>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Services() {
                 alt='...'
               />
               <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                <span class='text-white fs-3 fw-bold'>ROOM SERVICE</span>
+                <span class='text-white fs-1 fw-bold'>ROOM SERVICE</span>
               </div>
             </div>
           </div>

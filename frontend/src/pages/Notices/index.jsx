@@ -1,8 +1,8 @@
 import React from 'react';
-import DailyNotices from '../../assets/DailyNotices.png';
-import faq_background from '../../assets/faq_background.png';
-import Job_Notices from '../../assets/Job_Notices.png';
-import testimonials_background from '../../assets/testimonials_background.png';
+import Notice from '../../assets/Notice.webp';
+import faq_background from '../../assets/faq.jpeg';
+import Job_Notices from '../../assets/career.webp';
+import testimonials_background from '../../assets/test2.jpeg';
 import { Link } from 'react-router-dom';
 
 function Notices() {
@@ -16,7 +16,7 @@ function Notices() {
             <Link to='/dailynotices'>
               <div class='position-relative'>
                 <img
-                  src={DailyNotices}
+                  src={Notice}
                   class='img-fluid square-img'
                   alt='...'
                 />
@@ -31,7 +31,7 @@ function Notices() {
               <div class='position-relative'>
                 <img src={Job_Notices} class='img-fluid square-img' alt='...' />
                 <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                  <span class='text-white fs-3 fw-bold'>
+                  <span class='text-black fs-3 fw-bold'>
                     CAREER OPPORTUNITIES
                   </span>
                 </div>
@@ -49,7 +49,7 @@ function Notices() {
                   alt='...'
                 />
                 <div class='position-absolute top-50 start-50 translate-middle text-center'>
-                  <span class='text-white fs-3 fw-bold'>FAQ</span>
+                  <span class='text-black fs-3 fw-bold'>FAQ</span>
                 </div>
               </div>
             </Link>

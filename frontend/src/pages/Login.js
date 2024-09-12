@@ -43,15 +43,15 @@ const Login = () => {
       <div className='row container'>
         <div className='col-6 mt-2 p-3 mb-5 border-end border-dark'>
           <img
-            src='https://www.ymfcarparts.co.uk/images/blog/full-car-service.jpg'
+            src='https://wallpaperaccess.com/full/6688068.jpg'
             className='rounded'
-            width={500}
-            height={500}
+            width={600}
+            height={700}
             alt='user login'
           />
         </div>
-        <div className='col-6'>
-          <form className='p-5 mt-5 mb-5' onSubmit={handleSubmit}>
+        <div className='col-6 '>
+          <form className='p-5 mt-5 mb-5 bg-light ' onSubmit={handleSubmit}>
             <h3 className='text-center'>LOGIN</h3>
             <hr />
             <label>Email address:</label>

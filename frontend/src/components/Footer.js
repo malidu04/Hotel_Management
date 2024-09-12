@@ -5,29 +5,30 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 function Footer() {
   return (
-    <footer className='text-center text-lg-start bg-primary text-muted text-white'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-white'>
-        <div>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-facebook-f text-white'></i>
-          </a>
-          <a href='/' className='me-4 text-reset text-white'>
-            <i className='fab fa-twitter'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-google'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-instagram'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-linkedin'></i>
-          </a>
-          <a href='/' className='me-4 text-reset'>
-            <i className='fab fa-github'></i>
-          </a>
-        </div>
-      </section>
+    <footer className='text-center text-lg-start bg-secondary text-muted text-white'>
+      <section className='d-flex justify-content-center p-4 border-bottom text-white'>
+  <div>
+    <a href='/' className='me-4 text-reset'>
+      <i className='fab fa-facebook-f text-white'></i>
+    </a>
+    <a href='/' className='me-4 text-reset text-white'>
+      <i className='fab fa-twitter'></i>
+    </a>
+    <a href='/' className='me-4 text-reset'>
+      <i className='fab fa-google'></i>
+    </a>
+    <a href='/' className='me-4 text-reset'>
+      <i className='fab fa-instagram'></i>
+    </a>
+    <a href='/' className='me-4 text-reset'>
+      <i className='fab fa-linkedin'></i>
+    </a>
+    <a href='/' className='me-4 text-reset'>
+      <i className='fab fa-github'></i>
+    </a>
+  </div>
+</section>
+
 
       <section className=''>
         <div className='container text-center text-md-start mt-5 text-white'>
@@ -92,7 +93,7 @@ function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <a href='/notices' className='text-white'>
-                  <i className='fas fa-home me-3'></i> Notices
+                  <i className='fas fa-home me-3'></i>Notices
                 </a>
               </p>
               <p>
@@ -115,7 +116,7 @@ function Footer() {
       </section>
       <div
         className='text-center p-4 text-white'
-        style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}
+        style={{ backgroundColor: '#495057' }}
       >
         © 2021 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>

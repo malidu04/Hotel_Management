@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root{
-        --primary-color: #222260;
+        --primary-color: #000000;
         --primary-color2: 'color: rgba(34, 34, 96, .6)';
         --primary-color3: 'color: rgba(34, 34, 96, .4)';
         --color-green: #42AD00;
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Georgia', serif;
         font-size: clamp(1rem, 1.5vw, 1.2rem);
         color: rgba(34, 34, 96, .6);
     }

@@ -473,10 +473,10 @@ form.login {
 
 /* Change color when hovering over a navbar item */
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffbe63; /* change to your desired color */
+  color: #10b94e; /* change to your desired color */
 }
 
 /* Change color of active navbar item */
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #ffbb00; /* change to your desired color */
+  color: #10b94e; /* change to your desired color */
 }

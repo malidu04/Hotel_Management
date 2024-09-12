@@ -71,7 +71,7 @@ const NavStyled = styled.nav`
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: red;
     li {
       display: grid;
       grid-template-columns: 40px auto;
